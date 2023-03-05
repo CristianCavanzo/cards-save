@@ -4,7 +4,7 @@ import React from 'react';
 const Home = () => {
 	return (
 		<div>
-			<Card />
+			<Card cardHolder="4093" brand="visa" name="CRISTIAN PRUEBA" />
 		</div>
 	);
 };

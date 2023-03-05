@@ -11,12 +11,14 @@
   "main": ".eslintrc.js",
   "devDependencies": {
     "@types/react": "18.0.28",
+    "@types/styled-components": "^5.1.26",
     "eslint": "^8.35.0",
     "eslint-config-next": "^13.2.1",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.4"
+    "prettier": "^2.8.4",
+    "styled-components": "^5.3.8"
   },
   "scripts": {
     "dev": "NODE_OPTIONS=--inspect next dev",

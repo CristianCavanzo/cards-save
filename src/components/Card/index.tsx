@@ -7,6 +7,7 @@ const CardComponent = styled.div`
 	position: relative;
 	max-width: 300px;
 	min-height: 100px;
+	border: 1px solid black;
 	/* p {
 		position: absolute;
 		z-index: 1;
@@ -19,7 +20,6 @@ interface Props {
 	cardHolder: string;
 }
 
-// background: linear-gradient(90deg, hsla(350, 100%, 88%, 1) 0%, hsla(349, 100%, 92%, 1) 50%, hsla(36, 100%, 85%, 1) 100%);
 const Card = ({ brand, name, cardHolder }: Props) => {
 	const selectedCard = brands.getByName(brand);
 	return (
